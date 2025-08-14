@@ -394,7 +394,7 @@ def main():
     print_offers(offers)
 
     # Telegram bildirim koşulları
-    COND1_THRESHOLD = 51000.0  # en ucuz < 50.000 TL
+    COND1_THRESHOLD = 50000.0  # en ucuz < 50.000 TL
     COND2_THRESHOLD = 50500.0  # HB/HB veya Amazon/Amazon satırlarından biri < 50.500 TL
 
     cond1 = False
